@@ -30,6 +30,25 @@ section {
 #hero {
     background-color: #55C0EB;
 }
+.hero-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+        'left right';
+}
+#left-side {
+    grid-area: 'left';
+}
+#right-side {
+    grid-area: 'right';
+    overflow: hidden;
+}
+#tickybot {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 #features {
     background-color: #90DCAA;
 }
@@ -42,7 +61,7 @@ button {
     padding: 5px;
     text-align: center;
     height: 50px;
-    width: 200px;
+    width: 150px;
     border: none;
 }
 button p{
@@ -52,7 +71,8 @@ button p{
 #call-to-action button {
     background-color: #40596B;
 }
-svg {
+button img {
+    margin-left: -40px;
     height: 2rem;
     width: 3rem;
 }
@@ -61,4 +81,20 @@ hr {
    margin-left: 30vw;
    margin-right: 30vw;
    border-color: #55C0EB;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        "one two three";
+}
+#card-one {
+    grid-area: 'one';
+}
+#card-two {
+    grid-area: 'two';
+}
+#card-three {
+    grid-area: 'three';
 }
