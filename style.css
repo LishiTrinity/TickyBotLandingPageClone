@@ -53,6 +53,10 @@ section {
     height: auto;
     display: block;
 }
+#about p {
+    text-align: left;
+
+}
 #features {
     background-color: #90DCAA;
 }
@@ -73,6 +77,7 @@ button {
 button p{
     display: inline;
     vertical-align: 60%;
+    margin: 0;
 }
 #call-to-action button {
     background-color: #40596B;
@@ -106,4 +111,7 @@ hr {
 }
 #card-three {
     grid-area: 'three';
+}
+p {
+    margin: 30px;
 }
