@@ -39,12 +39,13 @@ section {
     grid-template-rows: auto;
     grid-template-areas: 
         'left right';
+    grid-gap: 10px;
     align-items: center;
 }
-#left-side {
+.left-side {
     grid-area: 'left';
 }
-#right-side {
+.right-side {
     grid-area: 'right';
 }
 #tickybot {
@@ -84,9 +85,11 @@ button img {
 }
 
 hr {
-   margin-left: 30vw;
-   margin-right: 30vw;
+   margin-left: 40vw;
+   margin-right: 40vw;
+   margin-top: -2px;
    border-color: #55C0EB;
+   
 }
 
 .card-wrapper {
