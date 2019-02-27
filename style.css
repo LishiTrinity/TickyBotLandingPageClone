@@ -31,20 +31,21 @@ section {
 }
 #hero {
     background-color: #55C0EB;
+    padding: 20px;
 }
-.hero-wrapper {
+.two-columns {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-template-areas: 
         'left right';
+    align-items: center;
 }
 #left-side {
     grid-area: 'left';
 }
 #right-side {
     grid-area: 'right';
-    overflow: hidden;
 }
 #tickybot {
     max-width: 100%;
@@ -65,6 +66,8 @@ button {
     height: 50px;
     width: 150px;
     border: none;
+    background-color: #ffffff;
+    font-size: 100%;
 }
 button p{
     display: inline;
@@ -72,9 +75,10 @@ button p{
 }
 #call-to-action button {
     background-color: #40596B;
+    color: #ffffff;
 }
 button img {
-    margin-left: -40px;
+    margin-left: -10px;
     height: 2rem;
     width: 3rem;
 }
