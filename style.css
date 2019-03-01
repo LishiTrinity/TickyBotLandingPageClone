@@ -108,8 +108,26 @@ hr {
 .card-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20rem;
+    grid-gap: 10px;
     grid-template-areas: 
         "one two three";
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+div.cards {
+    background: #40596B;
+}
+.cards img {
+    height: 70%;
+    width: auto;
+    margin-top: 5px;
+}
+.cards p {
+    background: #ffffff;
+    height: 30%;
+    width: auto;
+    margin: 0 auto;
 }
 #card-one {
     grid-area: 'one';
