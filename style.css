@@ -10,6 +10,13 @@ body {
 h1 {
     font-weight: 300;
 }
+p {
+    margin: 30px;
+}
+code {
+    color: rgb(223, 65, 157);
+    background: rgb(199, 196, 196);
+}
 main {
     display: grid;
     grid-template-columns: 100vw;
@@ -137,7 +144,4 @@ div.cards {
 }
 #card-three {
     grid-area: 'three';
-}
-p {
-    margin: 30px;
 }
