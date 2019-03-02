@@ -158,4 +158,5 @@ div#back-to-top{
    bottom: 0;
    right: 0;
    padding: 5px;
+   visibility: hidden;
 }
