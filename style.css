@@ -130,10 +130,14 @@ div.cards {
     width: auto;
     margin-top: 5px;
 }
-.cards p {
+.cards .text {
     background: #ffffff;
     height: 30%;
     width: auto;
+    margin: 0 auto;
+}
+.cards .text p {
+    padding: 10px;
     margin: 0 auto;
 }
 #card-one {
