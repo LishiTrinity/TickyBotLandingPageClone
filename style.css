@@ -139,6 +139,7 @@ div.cards {
 .cards .text p {
     padding: 10px;
     margin: 0 auto;
+    overflow: hidden;
 }
 #card-one {
     grid-area: 'one';
