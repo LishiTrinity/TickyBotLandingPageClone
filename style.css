@@ -149,3 +149,13 @@ div.cards {
 #card-three {
     grid-area: 'three';
 }
+
+div#back-to-top{
+   background-color: #FFD05A ;
+   height: 50px;
+   width: 50px;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   padding: 5px;
+}
